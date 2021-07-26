@@ -1,0 +1,96 @@
+.testimonials-header {
+  font-family: "Fuggles", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  height: 130vh;
+  width: 100%;
+  padding: 0.5rem 3rem;
+  margin-top: 4rem;
+  background: #9c9583;
+  position: relative;
+}
+.testimonial {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+
+  margin: 1rem;
+}
+.picture {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  border-radius: 50%;
+}
+.picture--1 {
+  bottom: 3rem;
+  transform: scale(0.7, 0.7);
+}
+.picture--2 {
+  bottom: 3rem;
+  transform: scale(0.7, 0.7);
+}
+
+.testimonial-text {
+  position: relative;
+  bottom: 5rem;
+  width: 100%;
+}
+.text--duke {
+  top: 1rem;
+}
+.testimonial-text p {
+  display: block;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.testimonial-name__description {
+  font-size: 1rem;
+  text-align: left;
+}
+
+@media (max-width: 30rem) {
+  .testimonials-header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #testimonials {
+    height: 250vh;
+    width: 100%;
+    padding: 0;
+    margin-top: 4rem;
+    background: #9c9583;
+    position: relative;
+  }
+  .testimonial {
+    display: block;
+
+    width: 100%;
+
+    margin: 0;
+  }
+  .testimonial-text {
+    margin-left: 0.3rem;
+  }
+  .testimonial-text p {
+    font-size: 1rem;
+  }
+
+  .testimonial-name {
+    margin: 0;
+  }
+  .testimonial-name__description {
+    font-size: 1rem;
+    text-align: left;
+  }
+}

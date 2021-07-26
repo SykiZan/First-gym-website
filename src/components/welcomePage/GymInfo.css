@@ -1,0 +1,93 @@
+.about-info {
+  background: url("../../assets/about3.jpg");
+
+  height: 140vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about-header {
+  margin: 0;
+  font-family: "Fuggles", cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+.article--1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  width: 60%;
+  background: rgba(176, 187, 191, 0.8);
+  margin: 0;
+  padding: 0.2rem;
+  border: 4px solid black;
+  border-left: none;
+
+  position: relative;
+  top: 5%;
+}
+
+.article--1 p {
+  padding-left: 2rem;
+}
+
+.article--2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  width: 60%;
+  background: rgba(176, 187, 191, 0.8);
+  margin: 0;
+  padding: 0.2rem;
+  border: 4px solid black;
+  border-right: none;
+
+  position: relative;
+  top: 10%;
+  margin-left: auto;
+}
+
+.article--2 p {
+  padding-left: 2rem;
+}
+.article--3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  width: 60%;
+  background: rgba(176, 187, 191, 0.8);
+  margin: 0;
+  padding: 0.2rem;
+  border: 4px solid black;
+  border-left: none;
+
+  position: relative;
+  top: 25%;
+}
+
+.article--3 p {
+  padding-left: 2rem;
+}
+
+@media (max-width: 30rem) {
+  .about-info {
+    height: 110vh;
+  }
+  .article {
+    width: 100%;
+    height: 33%;
+    padding: 0;
+    position: static;
+    font-size: 1.2rem;
+    border-right: none;
+    border-left: none;
+  }
+  .article p {
+    padding: 0;
+  }
+  .about-header {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+  }
+}

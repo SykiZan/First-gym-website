@@ -1,0 +1,77 @@
+#memberships {
+  margin-left: 4rem;
+}
+.memberships-header {
+  font-family: "Fuggles", cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+.membership-option {
+  background: #cadbc8;
+  display: inline-block;
+  padding: 3rem 1rem;
+  margin: 1rem 0.3rem;
+  vertical-align: middle;
+  line-height: 1rem;
+  text-align: center;
+  width: 30%;
+}
+.membership-option .title {
+  font-size: 1.3rem;
+}
+.pro {
+  background: #58a74f;
+  color: white;
+}
+.membership-option {
+  font-size: 1rem;
+}
+.recommended {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #333;
+  background: #e2d4b7;
+  border-radius: 0.3rem;
+  color: #333;
+}
+.description {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buy-card {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.buy-card:hover {
+  background: #b0bbbf;
+  color: #333;
+}
+
+@media (max-width: 30rem) {
+  #memberships {
+    margin-left: 0;
+  }
+  .memberships-header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .membership-option {
+    background: #cadbc8;
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+
+    line-height: 1rem;
+    text-align: center;
+  }
+}

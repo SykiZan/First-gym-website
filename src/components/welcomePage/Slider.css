@@ -1,0 +1,97 @@
+#slider {
+  position: relative;
+}
+.slider-header {
+  font-family: "Fuggles", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  background: #b0bbbf;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 4rem;
+  width: 4rem;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.arrow:hover {
+  background: white;
+}
+.left-arrow {
+  left: 4%;
+}
+.right-arrow {
+  right: 4%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.slide {
+  width: 80vw;
+  height: 80vh;
+}
+
+.slide-image {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide-image.active {
+  opacity: 1;
+  transition-duration: 2s;
+  transform: scale(1.04);
+}
+
+@media (max-width: 30rem) {
+  #slider {
+    width: 100%;
+    height: 100vh;
+  }
+  .slider-header {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+  }
+  .images {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .slide {
+    display: block;
+    width: 100vw;
+  }
+  .slide-image {
+    display: block;
+    width: 100vw;
+  }
+
+  .arrow {
+    background: none;
+    border: none;
+    color: #333;
+    border-radius: 50%;
+
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .arrow:hover {
+    background: none;
+  }
+}

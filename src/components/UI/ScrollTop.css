@@ -1,0 +1,24 @@
+.scroll-top {
+  position: fixed;
+  z-index: 1000;
+  right: 3%;
+  border-radius: 50%;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  bottom: 20%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.scroll-top:hover {
+  opacity: 1;
+}
+@media (max-width: 20rem) {
+  .scroll-top {
+    display: none !important;
+  }
+}
