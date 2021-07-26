@@ -10,8 +10,8 @@ function GymInfo() {
             <p>
               Founded in 2021 by great programmer businessman and
               fitness-superstar Eugene Smith, this gym has become center
-              training spot for elite athlets, actors, supermodels and other
-              succesfull people - therefore it's more than a gym - it's a club
+              training spot for elite athletes, actors, supermodels and other
+              successful people - therefore it's more than a gym - it's a club
               where you meet the best, whatever you are looking for.
             </p>
           </article>
