@@ -30,7 +30,7 @@ function GymInfo() {
             <p>
               7000 m<sup>2</sup> in your disposal, located in the heart of the
               city with underground parking for 2000 cars, kids room, 5
-              restoraunts, SPA{" & "} massage center.
+              restaraunts, SPA{" & "} massage center.
             </p>
           </article>
         </div>
